@@ -1,0 +1,76 @@
+<html>
+
+<head>
+    <title>News Api</title>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+</head>
+
+<body class="position-relative">
+    <var>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="#">News Api</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                        <li class="nav-item position-relative">
+                            <a id="homeLink" class="nav-link homeActive" href="#">Home</a>
+                        </li>
+                        <li class="nav-item dropdown position-relative">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Country
+                            </a>
+                            <ul class="dropdown-menu" id="country">
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Category
+                            </a>
+                            <ul class="dropdown-menu" id="category">
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </var>
+    <header class="header">
+        <div class="headerText">
+            <div class="container">
+                <h1>News Api<for /h1>
+                        <p>This Test For News Api</p>
+            </div>
+        </div>
+    </header>
+    <div class="about">
+        <h2>What's News Api</h2>
+        <p>
+            In our website you know all of world news and you choose between news category , just choose what country
+            you
+            want and the category
+        </p>
+    </div>
+    <div id="displayNews" class="container mb-5 mt-5"></div>
+    <div class="newsDetails">
+        <div class="newsDetailsContent">
+            <i id="closeIcon" class="fa-regular fa-circle-xmark"></i>
+            <div class="row mt-5 align-items-center" id="newsDetailsContentData">
+               
+            </div>
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
